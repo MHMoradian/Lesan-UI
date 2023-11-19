@@ -1,0 +1,136 @@
+* {
+    direction: rtl;
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+
+}
+
+.sections-container {
+    display: flex;
+    margin: 0 15rem;
+    justify-content: space-between;
+}
+
+.section{
+    /* margin: 2.5rem 15rem; */
+    border: 1px transparent white;
+    box-shadow: 3px 3px 10px 3px #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* margin:0 auto; */
+    height: 35rem;
+    /* padding: 2rem; */
+}
+
+#section--1{
+    margin-left: 2rem;
+}
+
+.sub-section__top{
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-section__top__testimonial{
+    margin: 0rem 2rem;
+}
+
+.sub-section__bottom{
+    margin: 1rem 3rem 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+  
+.main-header__label{
+    display: flex;
+    margin: 3rem 15rem;
+    padding: 0.5rem 1rem;
+    background-color: #eecc0b;
+    border-radius: 20px;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.main-header__label svg{
+    margin-left: 0.5rem;
+    vertical-align: middle;
+}
+
+
+.testimonial__header{
+    margin: 0;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #1b1b1b;
+    border-bottom: 1px solid #eecc0b;
+
+
+}
+
+.testimonial__text{
+    border-top: 1px solid #eecc0b;
+    margin: 0;
+    padding: 1rem 0;
+    font-size: 1.3rem;
+    color: #797676;
+}
+
+.testimonial__details{
+    list-style: none;
+    margin: 0;
+    padding: 1rem;
+}
+
+.testimonial__detail{
+    list-style: none;
+    color: #1b1b1b;
+    margin: 1rem 0;
+    /* padding: 1rem 0; */
+    font-size: 0.9rem;
+
+}
+
+.testimonial__detail svg{
+    margin-left: 0.5rem;
+}
+
+.sub-section__bottom a{
+    background-color: #585858;
+    color: white;
+    border-radius: 15px;
+    width: 50%;
+    padding: 1rem 0.5rem;
+    margin: 2rem auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+.testimonial a:hover,
+.testimonial a:focus{
+color: #000;
+cursor: pointer;
+}
+
+.testimonial__picture{
+    width: 15rem;
+    height: 13rem;
+    /* margin:  1rem; */
+    border-radius: 15px;
+
+}
+
+.more-items {
+    margin: 2rem auto;
+    text-align: center;
+    cursor: pointer;
+    color: #797676;
+    font-weight: bold;
+
+}
